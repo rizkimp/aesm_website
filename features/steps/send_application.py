@@ -14,7 +14,7 @@ def step_impl(context):
 def step_impl(context):
     context.page.fill(f'#{locator.input_first_name_cv}','test')
     time.sleep(3)
-    context.page.click(f'#{locator.button_accept}')
+    #context.page.click(f'#{locator.button_accept}')
     time.sleep(3)
 
 @then(u'enter last name cv')
